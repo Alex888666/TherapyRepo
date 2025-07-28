@@ -52,8 +52,15 @@ All robots have a label in the front of their base that show you which IP direct
 
 ## Previous Work
 Since everything is already working, we need to move on to the various ROS Workspaces and their funcionality. We need to explain all of the branches since their components are important for the funcionality of the project in general.
+
 ### Shanker Dorairajan 
-His work is important because he started developing a real-time UL joint angle estimation algorithm. These estimations are made using OpenPose, Microsoft Kinect V1. His project also explored the implementation of a rehabilitation training model to assist the patient when necessary. This was possible because he combined the impedance controller of the robot with an interface to record trajectories and do them in real timne. He also developed a Ros Workspace to access these functions. Typing the command *rqt* will allow you to access this funcionality. You need to have the MIcrosoft Kinect to make use of this funcionality.
+His work is important because he started developing a real-time UL joint angle estimation algorithm. These estimations are made using OpenPose, Microsoft Kinect V2. His project also explored the implementation of a rehabilitation training model to assist the patient when necessary. This was possible because he combined the impedance controller of the robot with an interface to record trajectories and do them in real timne. He also developed a Ros Workspace to access these functions. Typing the command **placeholder** on the terminal will allow you to access this funcionality. You need to have the Microsoft Kinect V2 connected to make use of this funcionality.
+
+
+These images will change with real screenshots.
+
+
+
 
 
 
