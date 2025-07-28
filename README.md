@@ -28,6 +28,11 @@ In case you are in the robotics laboratory you need to setup an ethernet connect
 
 You need to install the franka-emika robot package for the use of the robot. This is **vital**. Since their software is licensed, we only have the copies that are installed on the computers. **Don't erase them or try to modify them.** Also it must be noted that Franka-Emika robotics has discontinnued this model of the robot and acquiaring pieces or software is going to be extremly complicated. Please bear that in mind.
 
+The guide to setup all the different components of the robot can be found on the follwing links:
+
+- User Manual: https://download.franka.de/documents/100010_Product%20Manual%20Franka%20Emika%20Robot_10.21_EN.pdf
+- Franka Control Interface : https://frankarobotics.github.io/docs/index.html
+
 
 
 
