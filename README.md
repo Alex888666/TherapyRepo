@@ -7,14 +7,14 @@
 
 Hello. 
 
-This repository serves the purpose of unifying and guiding through all of the previous work done by the NRM group in the University of Queensland regarding the project and funcionality of the industrial robot arm () to be used as a collaborative robot to aid in motor therapy for people that have suffered any type of sickness that could impair their upper limbs movement.
+This repository serves the purpose of unifying and guiding through all of the previous work done by the NRM group in the University of Queensland regarding the project and funcionality of the industrial robot () to be used as a collaborative robot to aid in motor therapy for people that have suffered any type of sickness that could impair their upper limbs movement.
 
 My name is Alejandro Hernandez De la Torre. 
 In case you have any doubt with this repository or any consultation please contact me in my personal email alexhdlt@hotmail.com  or tell my supervisor Alejandro Melendez.
 
 ## First steps
 
-### Computer
+### Setup of the Computer
 
 The first steps that need to be taken into account for the use of the robot is that a computer needs to be setted up. The laboratory computers especifically the ones that are already hold in place with a square rig have all the previous data needed. Look especifically for a thinkerpad that has a label with a barcode with the numbers 4004/08144/000. That computer holds all the data that was used for this project and previous ones.
 
@@ -22,9 +22,12 @@ The first steps that need to be taken into account for the use of the robot is t
 
 In case you are not in the medical robotics laboratory or the computers are no longer there you should have a computer with Ubuntu 18.04 LTS installed, also you need ROS 1 (Melodic).
 
+In case you are in the robotics laboratory you need to setup an ethernet connection with the IT Desk Help Department.  
+
 ### Setup of the Robot
 
-You need to install the franka-emika robot package for the use of the robot. This is **vital**. Since their software is licensed, we only have the copies that are installed on the computers. **Don't erase them or try to modify the installation.** Also it must be noted that Franka-emika robotics has discontinnued this model of the robot and acquiaring pieces of the robot or software is going to be extremly complicated. Please bear that in mind.
+You need to install the franka-emika robot package for the use of the robot. This is **vital**. Since their software is licensed, we only have the copies that are installed on the computers. **Don't erase them or try to modify them.** Also it must be noted that Franka-Emika robotics has discontinnued this model of the robot and acquiaring pieces or software is going to be extremly complicated. Please bear that in mind.
+
 
 
 
