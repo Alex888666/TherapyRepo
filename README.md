@@ -16,7 +16,7 @@ In case you have any doubt with this repository or any consultation please conta
 
 ### Setup of the Computer
 
-The first steps that need to be taken into account for the use of the robot is that a computer needs to be setted up. The laboratory computers especifically the ones that are already hold in place with a square rig have all the previous data needed. Look especifically for a thinkerpad that has a label with a barcode with the numbers 4004/08144/000. That computer holds all the data that was used for this project and previous ones.
+The first steps that need to be taken into account for the use of the robot is that a computer needs to be setted up. The laboratory computers especifically the ones that are already held in place with a square rig have all the previous data needed. Look especifically for a thinkerpad that has a label with a barcode with the numbers 4004/08144/000. That computer holds all the data that was used for this project and previous ones.
 
 ![Computer](RIg.jpeg "Computer")
 
@@ -26,12 +26,25 @@ In case you are in the robotics laboratory you need to setup an ethernet connect
 
 ### Setup of the Robot
 
-You need to install the franka-emika robot package for the use of the robot. This is **vital**. Since their software is licensed, we only have the copies that are installed on the computers. **Don't erase them or try to modify them.** Also it must be noted that Franka-Emika robotics has discontinnued this model of the robot and acquiaring pieces or software is going to be extremly complicated. Please bear that in mind.
+You need to install the franka-emika robot package for the use of the robot. This is **vital**. Since their software is licensed, we only have the copies that are installed on the computers. **Don't erase them or try to modify them.** Also it must be noted that Franka-Emika robotics has discontinued this model of the robot and acquiring pieces or software is going to be extremly complicated. Please bear that in mind.
 
 The guide to setup all the different components of the robot can be found on the follwing links:
 
 - User Manual: https://download.franka.de/documents/100010_Product%20Manual%20Franka%20Emika%20Robot_10.21_EN.pdf
 - Franka Control Interface : https://frankarobotics.github.io/docs/index.html
+
+Both of the guides should be self-explanatory and they will guide you through the full setup and any future issues you may encounter. 
+
+### Setup and Specific cases for the UQ - Medical Lab
+
+Since everything is already installed in the computer lab you need to make sure that you follow these steps.
+
+- You have access to the User Medical Robotics
+- You have internet access in the computer 
+- All connections to the robot are correct as showed in the user manual.  
+- Setup the ether connection in the connection settings in ubuntu 
+All robots have a label in the front of their base that show you which IP direction you should configure your connection.
+- Open the terminal and see if you are capable of connecting to the robot via ping.
 
 
 
