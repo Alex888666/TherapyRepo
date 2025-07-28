@@ -44,6 +44,8 @@ Since everything is already installed in the computer lab you need to make sure 
 - All connections to the robot are correct as showed in the user manual.  
 - Setup the ether connection in the connection settings in Ubuntu. 
 All robots have a label in the front of their base that show you which IP direction you should configure your connection.
+
+![Ip Direction](robotbase.jpeg "IP Direction")
 - Open the terminal and see if you are capable of connecting to the robot via ping.
 
 
