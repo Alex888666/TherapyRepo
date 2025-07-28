@@ -48,6 +48,13 @@ All robots have a label in the front of their base that show you which IP direct
 - Open the terminal and see if you are capable of connecting to the robot via ping.
 - After the previous point was succesful, type the IP adress in any web browser (In my own experience Chrome works the best), to connect to the Robot Emika Desktop Interface.
 - Try using the block interface to move the robot. When you succesfully finish that, enter to the FCI mode and try connecting with ROS. 
+- Try running the examples included with the robot.
+
+## Previous Work
+Since everything is already working, we need to move on to the various ROS Workspaces and their funcionality. We need to explain all of the branches since their components are important for the funcionality of the project in general.
+### Shanker Dorairajan 
+His work is important because he started developing a real-time UL joint angle estimation algorithm. These estimations are made using OpenPose, Microsoft Kinect V1. His project also explored the implementation of a rehabilitation training model to assist the patient when necessary. This was possible because he combined the impedance controller of the robot with an interface to record trajectories and do them in real timne. He also developed a Ros Workspace to access these functions. Typing the command *rqt* will allow you to access this funcionality. You need to have the MIcrosoft Kinect to make use of this funcionality.
+
 
 
 
