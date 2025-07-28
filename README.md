@@ -1,6 +1,6 @@
 # TherapyRepo
 
-![alt text](uqbanner.jpeg "Title")
+![alt text](uqbanner.jpeg "Banner")
 
 
 ## Introduction
@@ -18,7 +18,13 @@ In case you have any doubt with this repository or any consultation please conta
 
 The first steps that need to be taken into account for the use of the robot is that a computer needs to be setted up. The laboratory computers especifically the ones that are already hold in place with a square rig have all the previous data needed. Look especifically for a thinkerpad that has a label with a barcode with the numbers 4004/08144/000. That computer holds all the data that was used for this project and previous ones.
 
+![Computer](RIg.jpeg "Computer")
+
+In case you are not in the medical robotics laboratory or the computers are no longer there you should have a computer with Ubuntu 18.04 LTS installed, also you need ROS 1 (Melodic).
+
+### Setup of the Robot
+
+You need to install the franka-emika robot package for the use of the robot. This is **vital**. Since their software is licensed, we only have the copies that are installed on the computers. **Don't erase them or try to modify the installation.** Also it must be noted that Franka-emika robotics has discontinnued this model of the robot and acquiaring pieces of the robot or software is going to be extremly complicated. Please bear that in mind.
 
 
-In case you are not in the medical robotics laboratory or that the computers are no longer there you should have a computer with Ubuntu 18.04 LTS installed, also you need ROS 1 (Melodic) 
 
