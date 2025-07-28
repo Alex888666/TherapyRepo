@@ -56,6 +56,7 @@ Since everything is already working, we need to move on to the various ROS Works
 ### Shanker Dorairajan 
 His work is important because he started developing a real-time UL joint angle estimation algorithm. These estimations are made using OpenPose, Microsoft Kinect V2. His project also explored the implementation of a rehabilitation training model to assist the patient when necessary. This was possible because he combined the impedance controller of the robot with an interface to record trajectories and do them in real timne. He also developed a Ros Workspace to access these functions. Typing the command **placeholder** on the terminal will allow you to access this funcionality. You need to have the Microsoft Kinect V2 connected to make use of this funcionality.
 
+![Ip Direction](WaterSea.jpeg "IP Direction")
 
 These images will change with real screenshots.
 
