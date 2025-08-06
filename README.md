@@ -60,7 +60,24 @@ His work is important because he started developing a real-time UL joint angle e
 
 These images will change with real screenshots of the program running
 
+## My own Work
 
+### RTS IMPLEMENTATION
+
+To achieve better results with the future and current usage of the robot I decided that it was a good idea to try and establish a good Real time kernel. 
+- First I tried using Ubuntu PRO, but since the lab computer uses Ubuntu 18.04 and this official kernel was not compatible I decided to use a generic kernel. In this case 5.14-rts. This kernel enables us to use realtime systems for better performance of the computer. 
+
+The only downside when using computer vision it's that Nvdia Drivers are not compatible with these kinds of kernels. An outstanding workaround was found on this github repository: 
+
+
+With this in mind we could generate a good result and actually install NVdia Drivers 
+
+An screenshot of introducing the commando nvdia-smi working on an RTS kernel
+
+
+### Gravity compensation
+
+### ROS 2 Implementation
 
 
 
